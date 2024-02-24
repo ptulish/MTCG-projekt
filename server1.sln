@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTCG-Server", "MTCG-Server\MTCG-Server.csproj", "{1B9253EA-C58E-4A87-8B9D-1A426790A4FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTCG-Test", "MTCG-Test\MTCG-Test.csproj", "{E699E901-A4CD-4975-BC3E-A542FD9C55EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B9253EA-C58E-4A87-8B9D-1A426790A4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9253EA-C58E-4A87-8B9D-1A426790A4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9253EA-C58E-4A87-8B9D-1A426790A4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B9253EA-C58E-4A87-8B9D-1A426790A4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E699E901-A4CD-4975-BC3E-A542FD9C55EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E699E901-A4CD-4975-BC3E-A542FD9C55EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E699E901-A4CD-4975-BC3E-A542FD9C55EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E699E901-A4CD-4975-BC3E-A542FD9C55EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

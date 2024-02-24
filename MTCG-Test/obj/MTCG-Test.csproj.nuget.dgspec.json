@@ -1,0 +1,164 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mtcg/Desktop/MTCG-Abgabe/MTCG-Projekt/MTCG-Test/MTCG-Test.csproj": {}
+  },
+  "projects": {
+    "/Users/mtcg/Desktop/MTCG-Abgabe/MTCG-Projekt/MTCG-Server/MTCG-Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mtcg/Desktop/MTCG-Abgabe/MTCG-Projekt/MTCG-Server/MTCG-Server.csproj",
+        "projectName": "MTCG-Server",
+        "projectPath": "/Users/mtcg/Desktop/MTCG-Abgabe/MTCG-Projekt/MTCG-Server/MTCG-Server.csproj",
+        "packagesPath": "/Users/mtcg/.nuget/packages/",
+        "outputPath": "/Users/mtcg/Desktop/MTCG-Abgabe/MTCG-Projekt/MTCG-Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mtcg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.0-rc.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mtcg/Desktop/MTCG-Abgabe/MTCG-Projekt/MTCG-Test/MTCG-Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mtcg/Desktop/MTCG-Abgabe/MTCG-Projekt/MTCG-Test/MTCG-Test.csproj",
+        "projectName": "MTCG-Test",
+        "projectPath": "/Users/mtcg/Desktop/MTCG-Abgabe/MTCG-Projekt/MTCG-Test/MTCG-Test.csproj",
+        "packagesPath": "/Users/mtcg/.nuget/packages/",
+        "outputPath": "/Users/mtcg/Desktop/MTCG-Abgabe/MTCG-Projekt/MTCG-Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mtcg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/mtcg/Desktop/MTCG-Abgabe/MTCG-Projekt/MTCG-Server/MTCG-Server.csproj": {
+                "projectPath": "/Users/mtcg/Desktop/MTCG-Abgabe/MTCG-Projekt/MTCG-Server/MTCG-Server.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
